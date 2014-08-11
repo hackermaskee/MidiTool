@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{0AC76C37-3DC8-25A2-9E10-EFFA9C02AAC7}") = "MidiTool", "MidiTool.vcxproj", "{52B590C2-37C9-F8CB-4186-F5D669C676CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B590C2-37C9-F8CB-4186-F5D669C676CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52B590C2-37C9-F8CB-4186-F5D669C676CA}.Debug|Win32.Build.0 = Debug|Win32
+		{52B590C2-37C9-F8CB-4186-F5D669C676CA}.Release|Win32.ActiveCfg = Release|Win32
+		{52B590C2-37C9-F8CB-4186-F5D669C676CA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
