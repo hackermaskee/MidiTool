@@ -26,9 +26,16 @@ public:
 
     void paint (Graphics&);
     void resized();
+    void childBoundsChanged (Component* child);
+    void mouseDown (const MouseEvent& e);
+    void addTerminal();
 
 private:
     //==============================================================================
+    void update();
+    void showPopupMenu();
+    Point<int> menuPosition;
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
 
